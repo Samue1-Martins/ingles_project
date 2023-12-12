@@ -25,9 +25,20 @@ h1,h3, p{
     align-items: center;
 }
 
+
+
 .header_text{
     display: flex;
     align-items: center;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    align-items: center;
+    position: relative;
+    margin-left: 95%;
+    margin-top: 3%;
 }
 
 #main{
@@ -42,6 +53,8 @@ h1,h3, p{
     flex-direction: column;
     padding: 50px;
     gap: 20px;
+    font-size: 20pt;
+    text-align: center;
 }
 
 .main_content{
@@ -57,4 +70,43 @@ h1,h3, p{
 .main_image img{
     width: 100%;
     height: 100%;
+}
+
+#second{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+   
+}
+
+#second p {
+    
+    color: #8c5dea;
+}
+
+#second h1 {
+    
+    color: #8c5dea;
+}
+
+.second_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 20pt;
+    gap: 20px;
+    text-align: center;
+    padding-top: 8%;
+}
+
+
+
+.second_text img {
+    width: 15%;
+    height: 15%;
+}
+
+.second_content{
+    justify-content: space-between;
 }
