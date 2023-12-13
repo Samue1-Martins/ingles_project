@@ -18,6 +18,7 @@ h1,h3, p{
     height: 80px;
     width: 100%;
     background-color: black;
+    position: absolute;
 }
 
 .header_main{
@@ -25,8 +26,6 @@ h1,h3, p{
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 .header_text{
     display: flex;
@@ -43,8 +42,7 @@ h1,h3, p{
 }
 
 #main{
-
-    height: 100%;
+    height: 100vh;
     width: 100%;
 }
 
@@ -61,11 +59,14 @@ h1,h3, p{
 .main_content{
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+    height: 100%;
 }
 
 .main_image{
-    height: 100%;
-    width: 30%;
+    height: 70%;
+    width: 90%;
 }
 
 .main_image img{
@@ -75,13 +76,11 @@ h1,h3, p{
 
 #second{
     background-color: black;
-    height: 100%;
+    height: 100vh;
     width: 100%;
-   
 }
 
 #second p {
-    
     color: #8c5dea;
 }
 
@@ -101,8 +100,6 @@ h1,h3, p{
     padding-top: 8%;
 }
 
-
-
 .second_text img {
     width: 15%;
     height: 15%;
@@ -110,4 +107,29 @@ h1,h3, p{
 
 .second_content{
     justify-content: space-between;
+}
+
+#third{
+    height: 100vh;
+}
+
+.third_content{
+    height: 100%;
+}
+
+.third_content_img img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.third_text{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: relative;
+}
+
+.third_text_div{
+    width: 200px;
 }
