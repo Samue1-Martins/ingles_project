@@ -26,9 +26,20 @@ h1,h3, p{
     align-items: center;
 }
 
+
+
 .header_text{
     display: flex;
     align-items: center;
+}
+
+#logo {
+    width: 10%;
+    height: 10%;
+    align-items: center;
+    position: relative;
+    margin-left: 95%;
+    margin-top: 3%;
 }
 
 #main{
@@ -43,6 +54,8 @@ h1,h3, p{
     flex-direction: column;
     padding: 50px;
     gap: 20px;
+    font-size: 20pt;
+    text-align: center;
 }
 
 .main_content{
@@ -60,22 +73,41 @@ h1,h3, p{
     height: 100%;
 }
 
-#main2{
-    padding: 50px;
+#second{
+    background-color: black;
     height: 100%;
     width: 100%;
+   
 }
 
-#main3{
-    padding: 50px;
-    height: 100%;
-    width: 100%;
-    margin-top: 35px;
-    margin-bottom: 35px;
+#second p {
+    
+    color: #8c5dea;
 }
 
-#main4{
+#second h1 {
+    
+    color: #8c5dea;
+}
+
+.second_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     padding: 50px;
-    height: 100%;
-    width: 100%;
+    font-size: 20pt;
+    gap: 20px;
+    text-align: center;
+    padding-top: 8%;
+}
+
+
+
+.second_text img {
+    width: 15%;
+    height: 15%;
+}
+
+.second_content{
+    justify-content: space-between;
 }
