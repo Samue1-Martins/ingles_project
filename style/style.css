@@ -20,6 +20,17 @@ h1,h3, p{
     background-color: black;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.navbar{
+    list-style-type: none;
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
 .header_main{
     display: flex;
     justify-content: space-around;
