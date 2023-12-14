@@ -66,11 +66,12 @@ h1,h3, p{
 .main_image{
     height: 100%;
     width: 30%;
+    margin-bottom: -4px;
 }
 
 .main_image img{
     width: 100%;
-    height: 100%;
+    height: 30%;
 }
 
 #second{
