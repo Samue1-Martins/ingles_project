@@ -86,6 +86,7 @@ ul {
 
     height: 100%;
     width: 100%;
+    padding: 5%;
 }
 
 .main_text{
@@ -119,7 +120,7 @@ ul {
     background-color: black;
     height: 100%;
     width: 100%;
-   
+    padding: 15%;
 }
 
 #second p {
@@ -215,6 +216,8 @@ ul {
 .action button:hover{
     background-color: #b195ea;
 }
+
+
 @media only screen and (max-width: 780px){
     .navbar{
         margin: 0;
