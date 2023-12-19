@@ -226,6 +226,7 @@ ul {
     gap: 20px;
     text-align: center;
     padding-top: 8%;
+    color:white;
     
 }
 
@@ -233,6 +234,9 @@ ul {
     justify-content: space-between;
 }
 
+.third_text tr{
+  
+}
 
 .action{
     width: 100%;
