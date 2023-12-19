@@ -66,8 +66,6 @@ ul {
     align-items: center;
 }
 
-
-
 .header_text{
     display: flex;
     align-items: center;
@@ -128,8 +126,11 @@ ul {
     color: #8c5dea;
 }
 
-#second h1 {
-    
+#second h1 {   
+
+    font-size: 40pt;
+    margin-bottom: 10%;
+    margin-top: -20%;
     color: #8c5dea;
 }
 
@@ -138,13 +139,12 @@ ul {
     justify-content: center;
     flex-direction: column;
     padding: 50px;
-    font-size: 20pt;
+    font-size: 30pt;
     gap: 20px;
     text-align: center;
     padding-top: 8%;
+    
 }
-
-
 
 .second_text img {
     width: 15%;
@@ -197,6 +197,43 @@ ul {
 
 }
 
+#third{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    padding: 15%;
+}
+
+#third p {
+    
+    color: #8c5dea;
+}
+
+#third h1 {   
+
+    font-size: 40pt;
+    margin-bottom: 10%;
+    margin-top: -20%;
+    color: #8c5dea;
+}
+
+.third_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    font-size: 30pt;
+    gap: 20px;
+    text-align: center;
+    padding-top: 8%;
+    
+}
+
+.third_content{
+    justify-content: space-between;
+}
+
+
 .action{
     width: 100%;
     padding: 10px;
@@ -217,6 +254,13 @@ ul {
     background-color: #b195ea;
 }
 
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 1%;
+    font-size: 18pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 @media only screen and (max-width: 780px){
     .navbar{
